@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    
+    <!-- Enlace al archivo de estilos externo -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- ENCABEZADO DE LA PÁGINA -->
+    <header>
+        <!-- Imagen personal centrada -->
+        <img src="img/fotoPersonal.jpg" alt="Foto Personal" style="width: 150px; height: 200px;">
+
+        <!-- Nombre personal debajo de la imagen -->
+        <h1>Xavier Cárdenas</h1>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL DE LA PÁGINA -->
+    <main>
+
+        <!-- SECCIÓN DE PRESENTACIÓN PERSONAL -->
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Hola, soy estudiante de sexto año de la carrera <strong>Perito en Desarrollo de Contenido Digital y Software</strong>. Desde que inicié este camino, descubrí una profunda pasión por la <strong>tecnología</strong>, la <strong>programación</strong> y la <strong>creación de soluciones digitales</strong> que impacten de manera positiva en la vida de las personas.</p>
+            <p>Este sitio web es un espacio donde comparto un poco de quién soy, mis intereses, y algunos proyectos en los que he trabajado o estoy desarrollando. Me encanta seguir aprendiendo, explorar nuevas herramientas y estar al tanto de las tendencias tecnológicas del mundo actual.</p>
+            <p>Gracias por visitar mi página, ¡espero que encuentres algo que te inspire o motive a crear!</p>
+        </section>
+
+        <!-- SECCIÓN DE INTERESES PERSONALES -->
+        <section>
+            <h2>Intereses</h2>
+            <ul>
+                <li>Tecnología</li>
+                <li>Codificación</li>
+                <li>Matemáticas a cierto nivel de dificultad</li>
+                <li>Idioma inglés</li>
+                <li>Videojuegos</li>
+                <li>Libros de ciencia ficción</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN DE HABILIDADES PERSONALES -->
+        <section>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Autodidacta</li>
+                <li>Aprendizaje rápido</li>
+                <li>Habilidades de liderazgo</li>
+                <li>Sociable</li>
+                <li>Creativo</li>
+                <li>Gran sentido del humor</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN DE VIDEO INCRUSTADO DE YOUTUBE -->
+        <section>
+            <h2>Mi contenido favorito en YouTube</h2>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/84QRhLmzynM?si=QqoxWjRiu_F5faZD" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <!-- FORMULARIO DE CONTACTO -->
+        <section>
+            <h2>Contáctame</h2>
+            <form>
+                <!-- Campo para ingresar el nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <!-- Campo para ingresar el correo -->
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo">
+
+                <!-- Campo para ingresar un mensaje -->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+
+                <!-- Botón para enviar el formulario -->
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA CON DERECHOS RESERVADOS -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Xavier Cárdenas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
